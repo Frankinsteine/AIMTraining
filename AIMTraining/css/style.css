@@ -1,0 +1,51 @@
+.container {
+    position: absolute;
+    
+}
+
+.MovingContainer {
+    position: absolute;
+    
+}
+
+.Target {
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+.MovingTarget {
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+
+body {
+    overflow: hidden;
+	background-position: 0% 0%;
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../src/background.jpg");
+	background-size: 100vw 100vh;
+	position:fixed; 
+    z-index: 0;
+}
+
+* {
+    cursor: url("../src/cursor.png"), crosshair;
+}
+
+.button{
+    
+}
+
+
+
